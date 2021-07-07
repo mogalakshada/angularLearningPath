@@ -1,0 +1,18 @@
+<mat-nav-list>
+  <div class="profile-card">
+    <div class="header">
+      <h2>Example</h2>
+      <h4>example@gmail.com</h4>
+    </div>
+    <img src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="example">
+  </div>
+  <mat-divider></mat-divider>
+  <h2 mat-subheader>Pages</h2>
+  <a mat-list-item routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]={exact:true}>Home</a>
+  <!-- <a mat-list-item routerLink="/changepassword" routerLinkActive="active">Change Password</a> -->
+  <a mat-list-item routerLink="/dataservice" routerLinkAactive="active">Data Service</a>
+
+  <mat-divider></mat-divider>
+  <h2 mat-subheader>Tools</h2>
+
+</mat-nav-list>

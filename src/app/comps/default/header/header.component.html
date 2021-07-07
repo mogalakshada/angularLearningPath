@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <button mat-icon-button (click)="toggleSideBar()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Welcome</span>
+    <a mat-button routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]={exact:true}>Home</a>
+    <span class="example-spacer"></span>
+    <a mat-button routerLink="/login" routerLinkActive="active">Login</a>
+    <a mat-button routerLink="/register" routerLinkActive="active">Register</a>
+    <a mat-button routerLink="/adminregister" routerLinkActive="active">Admin Register</a>
+  </mat-toolbar-row>
+</mat-toolbar>
